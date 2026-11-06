@@ -1009,7 +1009,7 @@ local senaV4Config = {
 	StealMinWeight = 0,
 	StealPriority = "Rarity",
 	TaskOrder = {
-		"auto_steal",
+		"pegsr_ovo",
 		"hw_steal",
 		"star",
 		"butterfly",
@@ -1240,7 +1240,7 @@ local t8 = {
 		"hw_fish"
 	},
 	TITLES = {
-		auto_steal = "Auto Steal",
+		auto_steal = "Auto pegar ovos",
 		hw_boss = "Pumpkin Boss",
 		hw_manor = "Manor Quest",
 		star = "Shooting Star",
@@ -41686,8 +41686,8 @@ loadstring(game:HttpGet("https://senahub.xyz/senaexclusive"))()
 
 			v7618()
 			v7631 = type(SenaLibOverride.ApplyIcon) == "function"
-			v7632 = SenaLibOverride:Window({
-				Title = "Sena Exclusive |",
+			v7632 = SenaLibOverride:Window(
+				Title = "Dark Hub  |",
 				Footer = "Steal An Egg",
 				Folder = "SenaSAEv4",
 				Version = 1,
@@ -46720,4 +46720,6 @@ loadstring(game:HttpGet("https://senahub.xyz/senaexclusive"))()
 	end
 
 	v7109()
+end
+)
 end
